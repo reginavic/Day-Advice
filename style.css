@@ -1,0 +1,100 @@
+body {
+    background-image: url("pictures35.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    background-color: rgb(169, 187, 169);
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#top {
+    position: fixed;
+    height: 80vh;
+    color: rgb(57, 46, 77);
+    font-family: 'Lora', serif;
+    font-size: 50px;
+    text-shadow: 3px 3px 4px rgb(199, 199, 223);
+}
+#par {
+    display: none;
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin-top: 350px;
+    padding: 20px;
+    width: 70%;
+    text-align: center;
+}
+#btn {
+    position: fixed;
+    padding: 15px;
+    background:Transparent no-repeat;
+    border-radius: 30px;
+    font-size: 25px;
+    color: rgb(57, 46, 77);
+    border: 2px solid rgb(57, 57, 87);
+    box-shadow: 2px 2px rgb(121, 121, 170);
+    font-family:'Lora', serif;
+    cursor: pointer;
+}
+
+.decoration {
+    width: 100%;
+    max-width: 280px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+}
+.decoration:after {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 200px;
+    margin-left: 50px;
+    background: #fff;
+    background: linear-gradient(
+        to bottom,
+        rgba(253, 254, 255, 0.5) 0%,
+        rgb(249, 252, 253) 50%,
+        rgba(255, 255, 255, 0.5) 100%
+    );
+    left: -40px;
+    top: -100px;
+    z-index: 1;
+    transform: rotate(45deg);
+    position: absolute;
+    animation: movingFlare 4s ease-in-out 0.07s infinite;
+}
+
+@keyframes movingFlare {
+    0% {
+    left: -30px;
+    margin-left: 0px;
+}
+30% {
+    left: 110%;
+    margin-left: 80px;
+}
+100% {
+    left: 110%;
+    margin-left: 80px;
+    }
+}
