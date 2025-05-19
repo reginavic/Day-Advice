@@ -1,11 +1,11 @@
 body {
-    background-image: url("pictures35.jpg");
+    background-image: url("pictures35.jpg"); 
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed; 
     min-height: 100vh;
-    background-color: rgb(169, 187, 169);
+    background-color: rgb(199, 199, 223);
 }
 .container {
     display: flex;
