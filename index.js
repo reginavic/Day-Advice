@@ -8,7 +8,9 @@ const quotes = [ "If you want something you never had, you have to do something 
     "The way you speak to yourself matters.",
     "Keep going… everything comes to you at the right time.",
     "Believe in yourself and your capabilities.",
-    "If it's meant to be, it will be."
+    "If it's meant to be, it will be.",
+    "Don't give up, you will succeed.",
+    "Progress Not perfection."
 ]
 button.addEventListener ("click", 
 function () {

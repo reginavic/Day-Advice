@@ -3,7 +3,7 @@ body {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed; 
     min-height: 100vh;
     background-color: rgb(169, 187, 169);
 }
@@ -19,7 +19,7 @@ body {
     color: rgb(57, 46, 77);
     font-family: 'Lora', serif;
     font-size: 50px;
-    text-shadow: 3px 3px 4px rgb(199, 199, 223);
+    text-shadow: 2px 2px 3px rgb(199, 199, 223); 
 }
 #par {
     display: none;
@@ -30,6 +30,7 @@ body {
     padding: 20px;
     width: 70%;
     text-align: center;
+    height: 80vh; 
 }
 #btn {
     position: fixed;
@@ -38,10 +39,11 @@ body {
     border-radius: 30px;
     font-size: 25px;
     color: rgb(57, 46, 77);
-    border: 2px solid rgb(57, 57, 87);
-    box-shadow: 2px 2px rgb(121, 121, 170);
+    border: 1px solid rgb(57, 46, 77);
+    box-shadow: 2px 2px rgb(199, 199, 223, 0.4);
     font-family:'Lora', serif;
     cursor: pointer;
+    margin-top: 100px;
 }
 
 .decoration {
@@ -69,13 +71,21 @@ body {
     width: 20px;
     height: 200px;
     margin-left: 50px;
-    background: #fff;
+    background: rgb(213, 213, 236); 
     background: linear-gradient(
         to bottom,
-        rgba(253, 254, 255, 0.5) 0%,
-        rgb(249, 252, 253) 50%,
-        rgba(255, 255, 255, 0.5) 100%
+        rgb(230, 230, 248, 0.4) 50%,
+        rgb(227, 227, 247, 0.4) 50%,
+        rgb(229, 229, 255, 0.4) 100%
     );
+    /*  background: #eaeaea; 
+        background: linear-gradient(
+        to bottom,
+        rgba(253, 254, 255, 0.7) 0%,
+        rgb(249, 252, 253, 0.7) 50%,
+        rgba(255, 255, 255, 0.7) 100%
+    );
+    */
     left: -40px;
     top: -100px;
     z-index: 1;
