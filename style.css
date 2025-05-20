@@ -15,7 +15,7 @@ body {
 }
 #top {
     position: fixed;
-    height: 80vh;
+    height: 80vh;  
     color: rgb(57, 46, 77);
     font-family: 'Lora', serif;
     font-size: 50px;
@@ -26,11 +26,11 @@ body {
     font-family: 'Lora', serif;
     font-size: 30px;
     color: rgb(255, 255, 255);
-    margin-top: 350px;
+    margin-top: 350px; 
     padding: 20px;
     width: 70%;
     text-align: center;
-    height: 80vh; 
+    height: 80vh;  
 }
 #btn {
     position: fixed;
@@ -78,14 +78,6 @@ body {
         rgb(227, 227, 247, 0.4) 50%,
         rgb(229, 229, 255, 0.4) 100%
     );
-    /*  background: #eaeaea; 
-        background: linear-gradient(
-        to bottom,
-        rgba(253, 254, 255, 0.7) 0%,
-        rgb(249, 252, 253, 0.7) 50%,
-        rgba(255, 255, 255, 0.7) 100%
-    );
-    */
     left: -40px;
     top: -100px;
     z-index: 1;
@@ -108,3 +100,12 @@ body {
     margin-left: 80px;
     }
 }
+
+@media (max-width: 620px) {
+
+    #par {
+        margin-top: 250px; 
+        font-size: 25px;
+    }
+}
+
